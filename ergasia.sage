@@ -214,4 +214,4 @@ c_ = C2Encoder(c)
 c_ = RandomNoise(c_)
 print(f"c' (with noise) = {c_}")
 
-print(F"c' (decoded) = {C2Decoder(c_)}")
+print(f"c' (decoded) = {C2Decoder(c_)}")
